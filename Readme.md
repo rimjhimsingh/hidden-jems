@@ -9,7 +9,7 @@
 
 A beautifully crafted, responsive travel website showcasing hidden destinations around the world. This project demonstrates modern web development practices with a focus on clean code, proper documentation, and industry-standard project structure.
 
-![Website Preview](https://via.placeholder.com/800x400?text=Hidden+Gems+Travel+Website)
+![Website Preview](https://hidden-jems.vercel.app/)
 
 ## 🚀 Tech Stack
 
