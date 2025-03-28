@@ -3,7 +3,7 @@
  * This file contains the data for all destination cards displayed on the site.
  * Each destination has a title, image path, alt text, and description.
  * 
- * @author [Your Name]
+ * @author [Rimjhim Singh]
  * @version 1.0.0
  */
 

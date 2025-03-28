@@ -2,7 +2,7 @@
  * Main JavaScript File
  * Handles all dynamic content and interactions for the Hidden Gems website.
  * 
- * @author [Your Name]
+ * @author [Rimjhim Singh]
  * @version 1.0.0
  */
 

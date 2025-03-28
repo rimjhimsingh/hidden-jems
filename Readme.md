@@ -28,6 +28,10 @@ A beautifully crafted, responsive travel website showcasing hidden destinations 
 - 🧩 Modular code organization
 - 📝 Comprehensive documentation
 
+## Custom font
+
+I created my own custom font using my iPad and the app **Calligraphr** to convert my handwriting into a **TTF** file. After that, I imported the font and integrated it into this website, making it truly unique and personal. It was a really fun and creative way to add a personal touch to the design, and I love how it gives the site a more customized feel!
+
 ## 📂 Project Structure
 
 ```

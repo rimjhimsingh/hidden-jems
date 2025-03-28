@@ -1,11 +1,10 @@
-/**
- * Hidden Gems Travel Website Styles
- * Author: [Your Name]
- * Version: 1.0.0
- * Description: Main stylesheet for the Hidden Gems travel website
- */
-
-/* Root Variables - Cozy Forest Theme */
+ @font-face {
+    font-family: 'BrushSimple'; 
+    src: url('fonts/brushsimple-regular-webfont.woff2') format('woff2'),
+         url('fonts/brushsimple-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 :root {
     --primary-white: #efebce; /* Light Cream */
     --soft-beige: #d6ce93;    /* Warm Beige */
@@ -15,9 +14,8 @@
     --gradient-green: linear-gradient(135deg, #d8a48f, #a3a380); /* Muted Coral to Olive Green */
 }
 
-/* Global Styles */
 body {
-    font-family: 'Playfair Display', serif;
+    font-family: 'BrushSimple', sans-serif;
     background-color: var(--primary-white);
     color: var(--rich-black);
     line-height: 1.8;
@@ -26,7 +24,6 @@ body {
     overflow-x: hidden;
 }
 
-/* Navbar */
 .navbar {
     background-color: var(--deep-olive);
     display: flex;
@@ -184,7 +181,6 @@ body {
     letter-spacing: 2px;
 }
 
-/* Tips Container */
 .tips-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -193,7 +189,6 @@ body {
     margin: 0 auto;
 }
 
-/* Individual Tip Box */
 .tip {
     background: rgba(255, 255, 255, 0.1);
     border-radius: 15px;
@@ -202,33 +197,28 @@ body {
     text-align: left;
 }
 
-/* Tip Hover Effect */
 .tip:hover {
     transform: translateY(-10px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-/* Tip Icon */
 .tip-icon {
     font-size: 3rem;
     margin-bottom: 1.5rem;
     display: block;
 }
 
-/* Tip Title */
 .tip-title {
     font-size: 1.6rem;
     font-weight: bold;
     margin-bottom: 1rem;
 }
 
-/* Tip Text */
 .tip-text {
     font-size: 1rem;
     line-height: 1.6;
 }
 
-/* Footer */
 footer {
     background: var(--deep-olive);
     color: var(--primary-white);
@@ -279,6 +269,6 @@ footer p {
 
 @media (max-width: 768px) {
     .tips-container {
-        grid-template-columns: 1fr; /* Single column on small screens */
+        grid-template-columns: 1fr;
     }
 }
